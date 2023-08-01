@@ -1,33 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+.personal-fig {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+/* @media (prefers-reduced-motion: no-preference) {
+  .personal-fig {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ff8b0f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: syne;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
-
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
